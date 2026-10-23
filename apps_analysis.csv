@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+СберБанк,ru.sberbankmobile,Финансы,sberpay,appmetrica,Найдена папка ru.sberbank.sberpay и пакет io.appmetrica.analytics в DEX
+Кинопоиск,com.kinopoisk,Развлечения,appmetrica,yandex-mapkit,yandex-ads,Обнаружены пакеты com.yandex.metrica, com.yandex.mapkit и реклама Яндекса
+RuStore,ru.rustore,Инструменты,rustore-push,rustore-billing,rustore-update,Использованы официальные префиксы ru.rustore.sdk.*
+ВКонтакте,com.vkontakte.android,Социальные сети,vk-id,mytracker,appmetrica,Присутствует com.vk.id.auth и трекеры my.target
+Авито,com.avito.android,Покупки,adjust,appmetrica,sentry,Найдены пакеты com.adjust.sdk, io.appmetrica и io.sentry
+Додо Пицца,ru.dodopizza.app,Еда,appmetrica,sentry,firebase-messaging,Зафиксированы вызовы Firebase Messaging и AppMetrica
+Едадил,com.edadeal.android,Покупки,appmetrica,yandex-ads,Обнаружены сигнатуры Yandex Mobile Ads и AppMetrica
+Циан,com.cian.main,Недвижимость,appmetrica,adjust,sentry,Используются пакеты аналитики Adjust и AppMetrica
+Альфа-Банк,ru.alfabank.mobile.android,Финансы,appmetrica,sentry,Наличие Sentry для отслеживания ошибок и AppMetrica
+Ингосстрах,ru.ingosstrakh.mobile,Финансы,appmetrica,mytracker,Найдены сигнатуры MyTracker и AppMetrica
